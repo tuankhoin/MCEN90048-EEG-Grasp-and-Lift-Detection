@@ -24,3 +24,6 @@ For enquiries on running the code, the main person in charge of each code part c
 2. __`ResidualCNN_Final.ipynb`__: Fawad Ahmed Malik (fawadahmedm@student.unimelb.edu.au)
 3. ...: Sean Breukel (...)
 4. ...: Victor Bouchet-Hibbert (...)
+
+## Info specific to __`ResidualCNN_Final.ipynb`__:
+hjntrmd
