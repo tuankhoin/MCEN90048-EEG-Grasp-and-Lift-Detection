@@ -26,7 +26,10 @@ For enquiries on running the code, the main person in charge of each code part c
 4. ...: Victor Bouchet-Hibbert (...)
 
 ## Info specific to __`ResidualCNN_Final.ipynb`__:
-The script was made and ran through Google Colab and the datasets were stored and retrieved from my personal google drive. This drive was mounted to the notebook as seen in the first block of the code. Next, the training and testing features and labels were kept in separately folder. Therefore, when running the code on your end, change the path for 'datas', 'events', 'test_datas' and 'test_events'
+The script was made and ran through Google Colab and the datasets were stored and retrieved from my personal google drive. This drive was mounted to the notebook as seen in the first block of the code. Next, the training and testing features and labels were kept in separately folder. Therefore, when running the code on your end, change the path for 'datas', 'events', 'test_datas' and 'test_events'.
+
 Ensure you have all the required packages installed ad GPU connected. Loading tensorboard again depends on how and where you run the code (this code was written and ran through colab). 
+
 When compiling the tuned model, ensure that the most optimal hyper-parameters combination is used in case you want to change the hyper-parameters or run the tuning on a different dataset. 
+
 Finally, there is a block of code in the extra section that visualises the ground truth labels, predicted labels based on a defined threshold and confidence score of a label against time. This is done beyond what was required in the report and hence not included. Furthermore, there is another block of code that shows the Resnet34 model updated to take in 7x7x1 input shape data. Again, this was not used for the purpose of the report.
